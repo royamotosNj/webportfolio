@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <link rel="icon" type="image/png" href="./images/logo1.webp" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Open+Sans:wdth,wght@75..100,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Nacel John</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav gap-3">
+        <li class="nav-item"><a class="nav-link" href="#landing">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">My Works</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Banner -->
+<section id="landing" class="container-fluid py-5 custom-banner-bg">
+	<div class="container">
+	  <div class="row align-items-center">
+		<div class="col-md-6 mb-4 mb-md-0">
+		  <h1 class="display-4 fw-bold text-dark">I'm Nacel John</h1>
+		  <p class="lead text-muted mb-2">I'm a</p>
+		  <h3 class="fw-semibold text-secondary">Full Stack Web Developer</h3>
+		</div>
+		<div class="col-md-6 text-center">
+		  <img src="./images/profile.jpg" alt="Profile" class="img-fluid rounded-circle profile-img">
+		</div>
+	  </div>
+	</div>
+  </section>
+
+<!-- Projects -->
+<section id="projects" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">My Projects</h2>
+    <div class="row g-4">
+      <!-- Repeatable Project Card -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card text-center">
+          <img src="./images/img1.webp" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">E-commerce API Documentation</h5>
+            <p class="card-text">Dynamic E-commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless order reporting and comprehensive product management. Documented Backend API published publicly using Postman.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card text-center">
+          <img src="./images/img2.webp" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Course Booking API Documentation</h5>
+            <p class="card-text">RESTful API for managing course enrolments...RESTful API for managing course enrolments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving activation, and student enrollment. Publicly documented using Postman.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card text-center">
+          <img src="./images/img3.webp" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Course Booking App</h5>
+            <p class="card-text">A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card text-center">
+          <img src="./images/img4.webp" class="card-img-top" alt="Project 4">
+          <div class="card-body">
+            <h5 class="card-title">E-commerce App</h5>
+            <p class="card-text">MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting, real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card text-center">
+          <img src="./images/img5.webp" class="card-img-top" alt="Project 5">
+          <div class="card-body">
+            <h5 class="card-title">Airline Booking System Mockup</h5>
+            <p class="card-text">Side Project: Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card text-center">
+          <img src="./images/img6.webp" class="card-img-top" alt="Project 6">
+          <div class="card-body">
+            <h5 class="card-title">Airline Booking System Prototype</h5>
+            <p class="card-text">Side Project: Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-5 text-center mb-4 mb-md-0">
+        <img src="./images/profile.jpg" alt="About Image" class="img-fluid rounded-circle" style="max-width: 250px;">
+      </div>
+      <div class="col-md-7">
+        <p class="fs-5">Hi, I'm Nacel John, a passionate full-stack web developer...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tools -->
+<section id="tools" class="vh-100 d-flex flex-column justify-content-center align-items-center text-center bg-white">
+  <h1 class="mb-5">Tools</h1>
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <h3>Front End</h3>
+        <div class="d-flex flex-wrap justify-content-center gap-3 mt-3">
+          <img src="./images/html5.png" class="tool-icon">
+          <img src="./images/css3.png" class="tool-icon">
+          <img src="./images/bootstrap.png" class="tool-icon">
+          <img src="./images/javascript.png" class="tool-icon">
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h3>MERN</h3>
+        <div class="d-flex flex-wrap justify-content-center gap-3 mt-3">
+          <img src="./images/mongodb.png" class="tool-icon">
+          <img src="./images/expressjs.png" class="tool-icon">
+          <img src="./images/react.png" class="tool-icon">
+          <img src="./images/nodejs.png" class="tool-icon">
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h3>Other Tools</h3>
+        <div class="d-flex flex-wrap justify-content-center gap-3 mt-3">
+          <img src="./images/heroku.png" class="tool-icon">
+          <img src="./images/git.png" class="tool-icon">
+          <img src="./images/react.png" class="tool-icon">
+          <img src="./images/sublime-text-3.png" class="tool-icon">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <h3 class="text-center mb-3">My Location</h3>
+
+       <div class="ratio ratio-4x3">
+         <iframe
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62820.63053486003!2d123.6852827892879!3d10.238226475037987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a9784dc23f97a3%3A0x6e1d801f07e82f31!2sCity%20of%20Naga%2C%20Cebu!5e0!3m2!1sen!2sph!4v1745367687704!5m2!1sen!2sph"
+           class="borderless-map"
+           allowfullscreen=""
+           loading="lazy"
+           referrerpolicy="no-referrer-when-downgrade"
+         ></iframe>
+       </div>
+
+      </div>
+      <div class="col-md-6">
+        <h3 class="text-center mb-4">Let's Discuss Projects!</h3>
+        <form class="p-4 bg-white shadow rounded">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" rows="4" class="form-control" required></textarea>
+          </div>
+          <button type="button" class="btn btn-outline-secondary w-100" data-bs-toggle="modal" data-bs-target="#modalDiv">Send Email</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLabel">Thank you for messaging us!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        We will get to you shortly!
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
